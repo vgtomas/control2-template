@@ -35,7 +35,7 @@ Para realizar el flujo completo deberemos implementar 2 endpoints:
 El primer endpoint nos permitirá obtener el token. Debe recibir 3 parámetros:
 
 - El `id` del usuario a consultar. Para efectos de prueba, el `id` puede ser cualquier número entre 1 y 10000.
-- Un `secret` que corresponde en este caso a una llave privada entre el cliente y servidor. Para efectos de esta prueba, busque el valor asociado en el archivo `.env`. En un servidor productivo real, las variables de entorno se cargan a través de un servidor de configuraciones (Como [Vault](https://www.vaultproject.io/).
+- Un `secret` que corresponde en este caso a una llave privada entre el cliente y servidor. Para efectos de esta prueba, busque el valor asociado en el archivo `.env`. En un servidor productivo real, las variables de entorno se cargan a través de un servidor de configuraciones (Como [Vault](https://www.vaultproject.io/)).
 - Un `key` que sería la llave pública. Para efectos de esta prueba, busque el valor asociado en el archivo `.env`.
 
 La respuesta exitosa recibida debería ser algo como sigue:
